@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="infor-student">
+        <h1>Thông tin học viên</h1>
+        <div>
+          <p>Họ và tên</p>
+          <input class="fullname" type="text" placeholder="nhập họ và tên" />
+        </div>
+        <div>
+          <p>Email</p>
+          <input class="email" type="text" placeholder="nhập email" />
+        </div>
+        <div>
+          <p>Số điện thoại</p>
+          <input class="number" type="text" placeholder="nhập số điện thoại" />
+        </div>
+        <div>
+          <p>Quê quán</p>
+          <input class="address" type="text" placeholder="nhập quê quán" />
+        </div>
+        <div>
+          <p>Giới tính</p>
+          <input class="male" type="radio" name="gender" id="" />Nam
+          <input class="famale" type="radio" name="gender" id="" />Nữ
+        </div>
+        <div>
+          <button class="btn saver-btn">Lưu lại</button>
+          <button class="btn update-btn hide">Update</button>
+        </div>
+      </div>
+      <div class="list-student">
+        <h1>Danh sách sinh viên</h1>
+        <div class="search-wrap">
+          <span>Tìm kiếm tên học viên</span>
+          <input type="text" class="search-input" />
+          <button class="btn search-btn">Search</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Họ tên</th>
+              <th>Email</th>
+              <th>Điện thoại</th>
+              <th>Địa chỉ</th>
+              <th>Gender</th>
+              <th>Hành động</th>
+              <th class="sort-btn">Sắp xếp</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.infor-student {
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.list-student {
+  width: 70%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+.infor-student div {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.infor-student div p {
+  min-width: 100px;
+}
+
+input {
+  line-height: 1.8em;
+  padding: 0 10px;
+}
+
+input[type="radio"]:last-child {
+  margin-left: 15px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.search-wrap {
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
